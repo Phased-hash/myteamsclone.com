@@ -1,0 +1,370 @@
+
+
+.microsoft-logo-top-bar {
+  height: 25px; 
+  margin-left: 120px;
+  cursor: pointer;
+
+}
+
+.teams-top-bar {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  padding: 5px;
+  height: 30px;
+  border-width: 2px;
+
+}
+
+.text-divider {
+  width: 2px; 
+  height: 25px; 
+  background-color: rgb(0, 0, 0); 
+  margin-left: 20px; 
+}
+
+.teams-top-bar-button {
+  margin-left: 30px;
+  height: 30px;
+  width: 80px;
+  background-color: white;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.teams-top-bar-button:hover {
+  background-color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+.teams-button-text {
+  height: 30px;
+  font-weight: 700;
+  font-family: Arial;
+  font-size: 20px;
+  color: rgb(57, 57, 57);
+}
+
+.products-top-bar-button {
+  margin-left: 25px;
+  border-width: 0;
+  cursor: pointer;
+  background: none;
+  display: flex;
+  align-items: center;
+}
+
+.products-top-bar-text {
+  height: 15px;
+  font-weight: 300;
+  font-family: Arial;
+  font-size: 16px;
+  color: rgb(57, 57, 57);
+}
+
+.products-top-bar-button:hover {
+  text-decoration: underline;
+}
+
+.arrow {
+  font-size: 12px;
+  margin-left: 3px; 
+  color: rgb(141, 141, 141);
+}
+
+.features-top-bar-button {
+  margin-left: 25px;
+  border-width: 0;
+  cursor: pointer;
+  background: none;
+  display: flex;
+  align-items: center;
+}
+
+.features-top-bar-text {
+  height: 15px;
+  font-weight: 300;
+  font-family: Arial;
+  font-size: 16px;
+  color: rgb(128, 128, 128);
+}
+
+.features-top-bar-button:hover {
+  text-decoration: underline;
+}
+
+.pricing-top-bar-button {
+  margin-left: 25px;
+  border-width: 0;
+  cursor: pointer;
+  background: none;
+  display: flex;
+  align-items: center;
+}
+
+.pricing-top-bar-text {
+  height: 15px;
+  font-weight: 300;
+  font-family: Arial;
+  font-size: 16px;
+  color: rgb(128, 128, 128);
+}
+
+.pricing-top-bar-button:hover {
+  text-decoration: underline;
+}
+
+.industries-top-bar-button {
+  margin-left: 25px;
+  border-width: 0;
+  cursor: pointer;
+  background: none;
+  display: flex;
+  align-items: center;
+}
+
+.industries-top-bar-text {
+  height: 15px;
+  font-weight: 300;
+  font-family: Arial;
+  font-size: 16px;
+  color: rgb(128, 128, 128);
+}
+
+.industries-top-bar-button:hover {
+  text-decoration: underline;
+}
+
+.resources-top-bar-button {
+  margin-left: 25px;
+  border-width: 0;
+  cursor: pointer;
+  background: none;
+  display: flex;
+  align-items: center;
+}
+
+.resources-top-bar-text {
+  height: 15px;
+  font-weight: 300;
+  font-family: Arial;
+  font-size: 16px;
+  color: rgb(128, 128, 128);
+}
+
+.resources-top-bar-button:hover {
+  text-decoration: underline;
+}
+
+.support-top-bar-button {
+  margin-left: 25px;
+  border-width: 0;
+  cursor: pointer;
+  background: none;
+  display: flex;
+  align-items: center;
+}
+
+.support-top-bar-text {
+  height: 15px;
+  font-weight: 300;
+  font-family: Arial;
+  font-size: 16px;
+  color: rgb(128, 128, 128);
+}
+
+.support-top-bar-button:hover {
+  text-decoration: underline;
+}
+
+/* Right side buttons */
+
+.download-teams-button {
+  margin-left: 560px;
+  padding: 10px;
+  border-width: 1px;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.signin-teams-button {
+  margin-left: 560px;
+  padding: 10px;
+  border-width: 1px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 20px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+/*midle section*/
+
+.background-image {
+  width: 100%;
+  display: flex;
+  position: relative; 
+  height: 600px;
+}
+
+.mid-section-title {
+  font-weight: bold; 
+  font-size: 45px; 
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  position: absolute; 
+  top: 250px; 
+  left: 200px; 
+  z-index: 1;
+  color: #000; 
+}
+
+.mid-section-text {
+  font-size: 15px; 
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  position: absolute; 
+  top: 420px; 
+  left: 200px; 
+  z-index: 1;
+  color: #000; 
+}
+
+.download-now-teams-button {
+  margin-left: 200px;
+  padding: 15px;
+  border-width: 1px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 140px;
+  background-color: rgb(93, 91, 212);
+  position: absolute; 
+  top: 550px; 
+  left: 0px; 
+  z-index: 2;
+  color: white;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+/*Third section*/
+
+.third-section {
+  background-color: rgb(255, 255, 255);
+  z-index: 3;
+  height: 55px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.featured-news-button {
+  margin-left: 240px;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 0px;
+  cursor: pointer;
+  background-color: white;
+  margin-bottom: 10px;
+  height: 90%;
+  width: 120px;
+
+}
+
+.features-top-bar-button:hover {
+  text-decoration: underline;
+  background-color: lightgray;
+}
+
+.solutions-news-button {
+  margin-left: 0px;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 0px;
+  cursor: pointer;
+  background-color: white;
+  margin-bottom: 10px;
+  height: 90%;
+  width: 120px;
+
+}
+
+.solutions-news-bar-button:hover {
+  text-decoration: underline;
+  background-color: lightgray;
+}
+
+.products-news-button {
+  margin-left: 0px;
+  padding: 0px;
+  border-width: 0px;
+  border-radius: 0px;
+  cursor: pointer;
+  background-color: white;
+  margin-bottom: 10px;
+  height: 90%;
+  width: 180px;
+  margin-top: 2px;
+
+}
+
+.products-news-button:hover {
+  text-decoration: underline;
+  background-color: lightgray;
+}
+
+.customer-stories-news-button {
+  margin-left: 0px;
+  padding: 0px;
+  border-width: 0px;
+  border-radius: 0px;
+  cursor: pointer;
+  background-color: white;
+  margin-bottom: 10px;
+  height: 90%;
+  width: 160px;
+  margin-top: 2px;
+
+}
+
+.customer-stories-news-button:hover {
+  text-decoration: underline;
+  background-color: lightgray;
+}
+
+.get-started-button {
+  margin-left: 0px;
+  padding: 0px;
+  border-width: 0px;
+  border-radius: 0px;
+  cursor: pointer;
+  background-color: white;
+  margin-bottom: 10px;
+  height: 90%;
+  width: 120px;
+  margin-top: 2px;
+
+}
+
+.get-started-button:hover {
+  text-decoration: underline;
+  background-color: lightgray;
+}
+
+
+.plans-pricing-button {
+  margin-left: 200px;
+  padding: 15px;
+  border-width: 1px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 190px;
+  background-color: rgb(93, 91, 212);
+  position: absolute; 
+  top: 653px; 
+  left: 1200px; 
+  z-index: 2;
+  color: white;
+  border-color: rgba(0, 0, 0, 0);
+}
